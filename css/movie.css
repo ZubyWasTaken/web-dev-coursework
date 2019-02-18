@@ -6,8 +6,19 @@ table, th, td {
 }
 .table-first-row {
     text-align: center;
-    font-weight: bold
+    font-weight: bold;
+    font-size: 20px
 }
 .table-second-row {
     text-align: center;
+}
+h1, h2, h3  {
+    text-align: center;
+}
+ul{
+    text-align: center;
+}
+li {
+    display: inline-block;
+    font-size: 18px;
 }
