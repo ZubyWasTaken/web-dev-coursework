@@ -43,7 +43,7 @@ body{
 table, th, td {
     border: 1px solid black;
     background-color: aquamarine;
-    margin: 0 left;
+    margin: 0;
 }
 
 .table-first-row {
