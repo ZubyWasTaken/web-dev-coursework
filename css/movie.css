@@ -1,12 +1,17 @@
 #nav {
     text-align: left;
 }
-h3{
+
+h3 {
     text-decoration: underline;
 }
-
+h1,h2{
+    margin: 0 auto;
+    max-width: 600px;
+    bottom: 0;
+}
 #nav li {
-    display: inline;
+    /* display: inline; */
     border: 1px solid #000;
     text-decoration: none;
     text-align: center;
@@ -16,21 +21,43 @@ h3{
     color: #000;
     line-height: 25px;
     overflow: hidden;
+
+    margin: 0 auto;
+    max-width: 600px;
+    bottom: 0;
 }
 
-#nav li:hover{
-    background-color:white;
+/* .info{
+    border-style: double;
+    border-color: red;
+} */
 
+.info {
+    border: 1px solid red;
+    margin: 0 auto;
+    max-width: 600px;
+    bottom: 0;
 }
 
-#nav li:link{
+.image {
+    width: 20%;
+    height: auto;
+  } 
+
+
+#nav li:hover {
+    background-color: white;
+}
+
+#nav li:link {
     background-color: lightblue;
 }
 
-#nav li:visited{
+#nav li:visited {
     color: grey;
 }
-body{
+
+body {
     background-color: yellow;
 }
 
@@ -43,7 +70,11 @@ body{
 table, th, td {
     border: 1px solid black;
     background-color: aquamarine;
-    margin: 0;
+    
+
+    margin: 0 auto;
+    max-width: 600px;
+    bottom: 0;
 }
 
 .table-first-row {
