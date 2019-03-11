@@ -42,7 +42,6 @@ h1, h2 {
     height: auto;
 }
 
-
 .reviews {
     border: 1px solid red;
     margin: 0 auto;
@@ -56,6 +55,7 @@ h1, h2 {
     width: 5%;
     height: auto;
 }
+
 #nav li:hover {
     background-color: white;
 }
@@ -66,8 +66,6 @@ a:link {
 
 a:visited {
     color: grey;
-}
-
 }
 
 #nav li:link {
